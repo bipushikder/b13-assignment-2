@@ -20,6 +20,9 @@
 }
 
 /* Main style  */
+
+/* navbar section */
+
 .nav-container{
         color: rgba(255, 255, 255, 1);
     height: 5.8rem;
@@ -32,6 +35,7 @@
   -webkit-text-fill-color: transparent; 
 }
 
+/* banner section  */
 .banner-container{
     background-image: url(./assets/hero-bg.png);
     background-position: center;
@@ -81,10 +85,40 @@
    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 
+/* about section */
+.about-container{
+     color: rgba(255, 255, 255, 1);
+      background-color: rgba(26, 11, 46, 1);
+}
+.about-info h1{
+    color: rgba(255, 255, 255, 1);
+    padding-top: 9.50rem;
+}
+.about-info p{
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.aboutp{
+    margin-top: 1.25rem;
+}
+.about-card{
+    margin-top: 160px;
+}
+.about-card h4{
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+
 
 @media screen and (max-width:576px) {
         .manubar, .primary-btn{
             display: none;
+        }
+        .about-card{
+            display: flex;
+            flex-wrap: wrap;
+        
         }
 
 }
